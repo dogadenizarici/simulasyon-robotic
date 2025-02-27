@@ -1,0 +1,96 @@
+/*
+ * NAVİGASYONUN AYARLARI
+ */
+header nav {
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	background: linear-gradient(#000, #ffffff00);
+}
+
+/*
+ * TAM EKRAN SLAYT BÖLÜMÜ
+ */
+.full-page-slider {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: 100%;
+
+	overflow-x: hidden;
+	overscroll-behavior-inline: contain;
+	overflow-y: hidden;
+}
+
+.full-page-slide-one {
+	background: url("../pictures/uzay.jpeg") no-repeat center;
+}
+
+.full-page-slide-two {
+	background: url("../pictures/koltuk.jpeg") no-repeat center;
+}
+
+.full-page-slide-one, .full-page-slide-two {
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	cursor: grab;
+}
+
+.slide-content {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 60px;
+}
+
+.slide-content * {
+	margin: 20px;
+	text-shadow: 0 0 18px black;
+}
+
+/*
+ * BİZİ YAKINDAN TANIYIN BÖLÜMÜ
+ */
+.get-to-know-us {
+	background-color: var(--bg-1);
+	padding: 2rem;
+}
+
+.get-to-know-us h2 {
+	font-size: larger;
+	font-weight: normal;
+}
+
+.get-to-know-us p {
+	padding: 10px 0px;
+}
+
+/*
+ * NELER YAPIYORUZ BÖLÜMÜ
+ */
+.what-are-we-doing {
+
+}
+
+/*
+ * İZMETLERİMİZ BÖLÜMÜ
+ */
+.services {
+	padding: 32px 0px;
+}
+
+/*
+ * İŞ YAPTIĞIMIZ FİRMALAR BÖLÜMÜ
+ */
+.companies-we-do-business-with {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 2rem;
+	background-color: #242424;
+	width: 100%;
+	height: auto;
+	padding: 2rem;
+}
+

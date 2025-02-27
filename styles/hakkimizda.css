@@ -1,0 +1,30 @@
+.info-bar {
+	background: var(--bg-3);
+	padding: 24px;
+}
+
+.info-bar a {
+	text-decoration: none;
+}
+
+.about-us {
+	background: var(--bg-2);
+	padding: 24px;
+}
+
+.c1 {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.line {
+	background: #bebebe;
+	width: 50px;
+	height: 2px;
+}
+
+.c2 {
+	color: var(--red-color);
+	padding-bottom: 50px;
+}

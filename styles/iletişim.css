@@ -1,0 +1,28 @@
+.info-bar {
+	background: var(--bg-3);
+	padding: 24px;
+}
+
+.info-bar a {
+	text-decoration: none;
+}
+
+.title-part .c1 {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+}
+
+.title-part .line {
+	background: #bebebe;
+	width: 50px;
+	height: 2px;
+}
+
+.title-part .c2 {
+
+	color: var(--red-color);
+	padding-bottom: 50px;
+
+}

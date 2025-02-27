@@ -1,0 +1,50 @@
+.info-bar {
+	background: var(--bg-3);
+	padding: 24px;
+}
+
+.info-bar a {
+	text-decoration: none;
+}
+
+.what-are-we-doing {
+	background: var(--bg-2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+
+}
+
+.title-part {
+	text-align: center;
+}
+
+.title-part .red-text {
+	color: var(--red-color);
+}
+
+.title-part .explanation {
+	margin-bottom: 50px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap:wrap;
+	gap: 32px
+}
+
+.cards .card {
+	display: flex;
+	flex-direction: column;
+}
+
+.cards .card h1{
+	font-size: 16px;
+}
+
+.cards img {
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
+}

@@ -1,0 +1,127 @@
+/*
+ * KULLANILAN RENKLER VE BOYUTLAR
+ */
+:root {
+	--bg-1: #161615;
+	--bg-2: #282b2d;
+	--bg-3: #333639;
+	--txt-color: white;
+	--red-color: #c50000;
+	--red-hover-color: #ea6c6c;
+	--red-clicked-color: #e6c59c;
+	--main-logo-width: 180px;
+	--other-logo-width: 30px;
+}
+
+/*
+ * TEMEL AYARLAR
+ */
+* {
+	padding: 0;
+	margin: 0;
+	color: var(--txt-color);
+	box-sizing: border-box;
+}
+
+/*
+ * FONT VE HIGHLIGHT RENK AYARI
+ */
+body {
+	font-family: "";
+	background: var(--bg-1);
+}
+
+::selection {
+	background: var(--red-color);
+}
+
+/*
+ * MENÜ BÖLÜMÜ
+ */
+nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0px 50px;
+	background: var(--bg-2);
+}
+
+nav a {
+	margin-right: auto;
+}
+
+nav a img {
+	width: var(--main-logo-width);
+	height: auto;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	padding-left:  20px;
+	flex: 0 0 auto;
+	gap: 18px;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: white;
+	padding: 0px 10px;
+}
+
+/*
+ * FOOTER BÖLÜMÜ;
+ */
+footer {
+	display: flex;
+	gap: 30px;
+}
+
+footer .s1 {
+	margin-left: 4vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px
+}
+
+footer .s1 a img {
+	width: var(--main-logo-width);
+	height: auto;
+}
+
+footer .s1 .other-logos {
+	display: flex;
+	gap: 40px;
+}
+
+footer .s1 .other-logos img {
+	width: var(--other-logo-width);
+}
+
+footer .s2 {
+	background: var(--bg-2);
+	display: flex;
+	padding: 50px;
+	gap: 20px;
+	flex-grow: 1;
+}
+
+footer .s2 ul {
+	list-style: none;
+}
+
+footer .s2 a {
+	text-decoration: none;
+}
+
+footer .s2 h1 {
+	font-size: 18px;
+	padding-bottom: 12px;
+}
+
+footer .s2 li, p {
+	font-size: 14px;
+	padding-bottom: 6px;
+}
