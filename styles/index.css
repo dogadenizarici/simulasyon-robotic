@@ -79,6 +79,27 @@ header nav {
 	padding: 32px 0px;
 }
 
+.cards {
+	display: flex;
+	flex-wrap:wrap;
+	gap: 32px
+}
+
+.cards .card {
+	display: flex;
+	flex-direction: column;
+}
+
+.cards .card h1{
+	font-size: 16px;
+}
+
+.cards img {
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
+}
+
 /*
  * İŞ YAPTIĞIMIZ FİRMALAR BÖLÜMÜ
  */
