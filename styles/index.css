@@ -68,8 +68,25 @@ header nav {
 /*
  * NELER YAPIYORUZ BÖLÜMÜ
  */
-.what-are-we-doing {
+.what-are-we-doing .cards {
+	display: flex;
+	flex-wrap:wrap;
+	gap: 32px
+}
 
+.what-are-we-doing .cards .card {
+	display: flex;
+	flex-direction: column;
+}
+
+.what-are-we-doing .cards .card h1{
+	font-size: 16px;
+}
+
+.what-are-we-doing .cards img {
+	width: 350px;
+	height: 350px;
+	object-fit: cover;
 }
 
 /*
@@ -79,22 +96,22 @@ header nav {
 	padding: 32px 0px;
 }
 
-.cards {
+.services .cards {
 	display: flex;
 	flex-wrap:wrap;
 	gap: 32px
 }
 
-.cards .card {
+.services .cards .card {
 	display: flex;
 	flex-direction: column;
 }
 
-.cards .card h1{
+.services .cards .card h1{
 	font-size: 16px;
 }
 
-.cards img {
+.services .cards img {
 	width: 350px;
 	height: 350px;
 	object-fit: cover;
