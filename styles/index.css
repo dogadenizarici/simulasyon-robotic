@@ -29,7 +29,8 @@ header nav {
 	background: url("../pictures/koltuk.jpeg") no-repeat center;
 }
 
-.full-page-slide-one, .full-page-slide-two {
+.full-page-slide-one,
+.full-page-slide-two {
 	background-size: cover;
 	height: 100vh;
 	position: relative;
@@ -70,7 +71,7 @@ header nav {
  */
 .what-are-we-doing .cards {
 	display: flex;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	gap: 32px
 }
 
@@ -79,7 +80,7 @@ header nav {
 	flex-direction: column;
 }
 
-.what-are-we-doing .cards .card h1{
+.what-are-we-doing .cards .card h1 {
 	font-size: 16px;
 }
 
@@ -98,7 +99,7 @@ header nav {
 
 .services .cards {
 	display: flex;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	gap: 32px
 }
 
@@ -107,7 +108,7 @@ header nav {
 	flex-direction: column;
 }
 
-.services .cards .card h1{
+.services .cards .card h1 {
 	font-size: 16px;
 }
 
@@ -131,4 +132,3 @@ header nav {
 	height: auto;
 	padding: 2rem;
 }
-
