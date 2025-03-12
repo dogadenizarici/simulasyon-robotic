@@ -1,0 +1,60 @@
+:root {
+	--color-1: #282b2d;
+	--text-color: #f0f0f0;
+	--accent-color: #c50000;
+
+	--bg-1: #161615;
+	--bg-2: #282b2d;
+	--bg-3: #333639;
+	--txt-color: white;
+	--red-color: #c50000;
+	--red-hover-color: #ea6c6c;
+	--red-clicked-color: #e6c59c;
+
+	--main-logo-height: 7.5rem;
+	--other-logo-height: 2.4rem;
+	--other-logo-height-horizontal: 3.5rem;
+
+	--font-weight: 500;
+}
+
+::selection {
+	background: var(--red-color);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 12pt;
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: var(--font-weight);
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	color: var(--text-color);
+}
+
+.content {
+	flex: 1 0 auto;
+	background: #1d3e53;
+}
+
+header,
+footer {
+	flex-shrink: 0;
+}

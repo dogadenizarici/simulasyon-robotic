@@ -1,0 +1,44 @@
+header nav {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+	background: linear-gradient(#000, #ffffff00);
+}
+
+header .header-slider {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 80vh;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory;
+
+}
+
+header .header-slider .slide-one,
+.slide-two {
+	width: 100%;
+	height: 100%;
+
+	flex: 0 0 auto;
+	scroll-snap-align: center;
+	position: relative;
+}
+
+header .header-slider .slide-one {
+	background: url("../images/uzay.jpeg") no-repeat center;
+	background-size: cover;
+}
+
+header .header-slider .slide-two {
+	background: url("../images/koltuk.jpeg") no-repeat center;
+	background-size: cover;
+}
+
+header .header-slider .slide-content {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+

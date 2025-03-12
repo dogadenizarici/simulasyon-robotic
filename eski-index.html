@@ -4,51 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Similasyon Robotic</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Simulasyon Robotic</title>
+    <link rel="stylesheet" href="styles/temel.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
     <header>
-        <div class="header-slider">
-            <div class="header-one">
-                <div class="header-content">
-                    <h2 class="animate__animated animate__backInUp">Uçak Similasyonu</h2>
-                    <h1 class="animate__animated animate__backInUp animate__delay-1s">Uçak Similasyonu</h1>
-                    <p class="animate__animated animate__backInUp animate__delay-2s">Uçak Similatörü</p>
-                    <button class="animate__animated animate__backInUp animate__delay-3s"
-                        onmouseover="handleHover()">Projelerimiz<span>>></span></button>
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Simulasyon Robotic">
+            </a>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="pages/hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="pages/hizmetler.html">Hizmetler</a></li>
+                <li><a href="pages/neler-yapiyoruz.html">Neler Yapıyoruz?</a></li>
+                <li><a href="pages/iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+
+        <div class="full-page-slider">
+            <div class="full-page-slide-one">
+                <div class="slide-content">
+                    <h2>Uçak Simulasyonu</h2>
+                    <h1>Uçak Simulasyonu</h1>
+                    <p>Uçak Simulatörü</p>
                 </div>
             </div>
-            <div class="header-two">
-                <div class="header-content">Uçak Similasyonu
-                    Uçak Similasyonu
-                    Uçak Similatörü
-
-                    Projelerimiz>>
-
+            <div class="full-page-slide-two">
+                <div class="slide-content">
                     <h2>Robotic Simülasyon</h2>
                     <h1>9D Sinema Haraketli Simülasyon Odası</h1>
                     <p>Robotic Simülasyon</p>
-                    <button onmouseover="handleHover()">Projelerimiz<span>>></span></button>
                 </div>
             </div>
         </div>
-        <div class="navbar">
-            <img class="logo" src="images/logo.png" alt="Similasyon Robotic">
-            <ul class="links">
-                <li><a href="#">Anasyafa</a></li>
-                <li><a href="#">Hakkımızda</a></li>
-                <li><a href="#">Hizmetler</a></li>
-                <li><a href="#">Projeler</a></li>
-                <li><a href="#">Neler Yapıyoruz?</a></li>
-                <li><a href="#">İletişim</a></li>
-            </ul>
-            <a href="#"></a><button class="offer">Teklif Al</button></a>
-        </div>
     </header>
-    <section class="info">
+
+    <section class="get-to-know-us">
         <h2>Robotic Simulasyon</h2>
         <h1>Bizi Yakından Tanıyın!</h1>
         <p>Bizimle İlgili Merak Edilen Herşey</p>
@@ -78,94 +72,139 @@
         <p>Vizyonumuz:<br>Ar-Ge ve İnovasyon temelinde ülkemizi geleceğe taşıyacak tasarım ve uygulamalara imza atan...
         </p>
     </section>
-    <section class="nelerYapıyoruz">
-        <h1>ROBOTIC SIMILASYON</h1>
+
+    <section class="what-are-we-doing">
+        <h1>ROBOTIC SIMULASYON</h1>
         <h2>Neler Yapıyoruz</h2>
         Yaptıklarımızı İncelemek İsterseniz Aşağıdaki Görsellere Tıklayınız.
-        <div class="ikonlar">
-            <a href="" class="ikon">
-                <img src="images/vr.jpeg" alt="">
+        <div class="cards">
+            <a href="pages/bagimlilik-yapici-surusler.html" class="card">
+                <img src="images/vr.jpeg">
+                <h1>Bağımlılık Yapıcı Sürüşler</h1>
+                <p>Detaylı İncele ></p>
             </a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="pages/emniyet.html" class="card">
+                <img src="images/bant.jpeg">
+                <h1>Emniyet</h1>
+                <p>Detaylı İncele ></p>
+            </a>
+            <a href="pages/garanti.html" class="card">
+                <img src="images/arma.jpeg">
+                <h1>Garanti</h1>
+                <p>Detaylı İncele ></p>
+            </a>
+            <a href="pages/hizli-yatirim-getirisi.html" class="card">
+                <img src="images/takvim.jpeg">
+                <h1>Hızlı Yatırım Getirisi</h1>
+                <p>Detaylı İncele ></p>
+            </a>
         </div>
-
-
     </section>
+
     <section class="services">
         <div>
-            <div>
-                <h1>Robotic Simulasyon HİZMETLERİMİZ</h1>
-                <p>Robotic Simulasyon Hizmetlerimizi İncelemek İsterseniz Aşağıdaki Görsellere Tıklayınız.</p>
-            </div>
-            <button>Tümünü Gör</button>
+            <h1>Robotic Simulasyon HİZMETLERİMİZ</h1>
+            <p>Robotic Simulasyon Hizmetlerimizi İncelemek İsterseniz Aşağıdaki Görsellere Tıklayınız.</p>
         </div>
-        <div class="imagelinks">
-            <a href="#">
-                <div>
-                    <img src="images/sinema.jpeg" alt="sinema" width="auto" height="50px">
-                    <p>9D Sinema Haraketli Simülasyon</p>
-                </div>
+
+        <div class="cards">
+            <a href="pages/9d-sinema-hareketli-simulasyon-odasi.html" class="card">
+                <img src="images/sinema.jpeg">
+                <h1>9D Sinema Hareketli Simulasyon Odası</h1>
+                <p>Detaylı İncele ></p>
             </a>
-            <a href="#">
-                <div>
-                    <img src="images/uzay.jpeg" alt="sinema" width="auto" height="50px">
-                    <p>Uçak Simulatörü</p>
-                </div>
+            <a href="pages/ucak-simulatoru.html" class="card">
+                <img src="images/uzay.jpeg">
+                <h1>Uçak Simulatörü</h1>
+                <p>Detaylı İncele ></p>
             </a>
-            <a href="#">
-                <div>
-                    <img src="images/sim.jpg" alt="sinema" width="auto" height="50px">
-                    <p>2 AXİS Simulator</p>
-                </div>
+            <a href="pages/2-axis-simulator.html" class="card">
+                <img src="images/sim.jpg">
+                <h1>2 AXİS Simulatör</h1>
+                <p>Detaylı İncele ></p>
             </a>
-            <a href="#">
-                <div>
-                    <img src="images/tank.jpg" alt="sinema" width="auto" height="50px">
-                    <p>Tank Simulatörü</p>
-                </div>
+            <a href="pages/tank-simulatoru.html" class="card">
+                <img src="images/tank.jpg">
+                <h1>Tank Simulatörü</h1>
+                <p>Detaylı İncele ></p>
             </a>
-            <a href="#">
-                <div>
-                    <img src="images/makine.png" alt="sinema" width="auto" height="50px">
-                    <p>6AXİS Simulatör</p>
-                </div>
+            <a href="pages/6-axis-simulator.html" class="card">
+                <img src="images/makine.png">
+                <h1>6 AXİS Simulatör</h1>
+                <p>Detaylı İncele ></p>
             </a>
         </div>
     </section>
-    <section class="logos">
+
+    <section class="companies-we-do-business-with">
         <img src="images/trabzon.png" alt="trabzon spor" width="90px" height="auto">
         <img src="images/toki.png" alt="trabzon spor" width="90px" height="auto">
         <img src="images/aselsan.png" alt="trabzon spor" width="90px" height="auto">
         <img src="images/rize.png" alt="trabzon spor" width="90px" height="auto">
         <img src="images/orman.png" alt="trabzon spor" width="90px" height="auto">
     </section>
+
     <footer>
-        <div class="getInfoDiv">
-            <h1>Hemen<br><span style="white-space: nowrap;">Bilgi Alın!</span></h1>
-            <div class="line"></div>
-            <p>Bilgileri Doldurarak Bizden Hızlı Bir Şekilde Teklif Alabilirsiniz.</p>
-        </div>
-        <form action="POST">
-            <div class="form-group">
-                <div class="nameimput">
-                    <svg>
-                        <path fill="black"
-                            d="m 125.7018,156.36611 c -0.6013,-1.47018 -2.0463,-2.50592 -3.73056,-2.50592 h -2.01481 c -1.68426,0 -3.12926,1.03574 -3.73056,2.50592 -1.12074,-1.17741 -1.81018,-2.76722 -1.81018,-4.52074 0,-3.61722 2.93092,-6.54815 6.54815,-6.54815 3.61722,0 6.54814,2.93093 6.54814,6.54815 0,1.75352 -0.68944,3.34333 -1.81018,4.52074 z m -1.26241,1.02945 c -1.0074,0.63277 -2.1974,0.99796 -3.47555,0.99796 -1.27815,0 -2.46815,-0.36519 -3.47871,-0.99796 0.22982,-1.15537 1.24982,-2.02426 2.4713,-2.02426 h 2.01481 c 1.22149,0 2.24149,0.86889 2.4713,2.02426 z m -3.47555,2.50907 a 8.05926,8.05926 0 1 0 0,-16.11852 8.05926,8.05926 0 1 0 0,16.11852 z m 0,-8.56296 a 1.25926,1.25926 0 1 1 0,-2.51852 1.25926,1.25926 0 1 1 0,2.51852 z m -2.77037,-1.25926 a 2.7703706,2.7703706 0 1 0 5.54074,0 2.7703706,2.7703706 0 1 0 -5.54074,0 z">
-                        </path>
-                    </svg>
-                    <input required placeholder="Ad Soyad" type="text" id="name">
-                </div>
+        <section class="s1">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Simulasyon Robotic">
+            </a>
+            <div class="other-logos">
+                <a href="https://www.instagram.com/simulasyon_robotic/">
+                    <img src="images/itg.png" alt="Instagram">
+                </a>
+                <a href="https://simulasyonrobotic.sahibinden.com/">
+                    <img src="images/sahibinden.png" alt="Sahibinden">
+                </a>
+                <a
+                    href="https://api.whatsapp.com/send?phone=0542%20123%2063%2010&text=Merhaba%20sizlere internet%20siteniz%20%C3%BCzerinden%20bilgi%20almak%20i%C3%A7in%20ula%C5%9F%C4%B1yorum.">
+                    <img src="images/wp.png" alt="Whatsapp">
+                </a>
             </div>
-            <div class="form-group">
-                <label for="ph">Email</label>
-                <input required placeholder="Telefon" type="tel" id="telefon">
+        </section>
+
+        <section class="s2">
+            <div>
+                <h1>Hızlı Menü</h1>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="pages/hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="pages/hizmetler.html">Hizmetler</a></li>
+                    <li><a href="pages/neler-yapiyoruz.html">Neler Yapıyoruz?</a></li>
+                    <li><a href="pages/iletisim.html">İletişim</a></li>
+                </ul>
             </div>
-            <button>Gönder</button>
-        </form>
+            <div>
+                <h1>Hizmetler</h1>
+                <ul>
+                    <li><a href="pages/bagimlilik-yapici-surusler.html">Bağımlılık Yapıcı Sürüşler</a></li>
+                    <li><a href="pages/emniyet.html">Emniyet</a></li>
+                    <li><a href="pages/garanti.html">Garanti</a></li>
+                    <li><a href="pages/hizli-yatirim-getirisi.html">Hızlı Yatırım Getirisi</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1>Neler Yapıyoruz?</h1>
+                <ul>
+                    <li><a href="pages/9d-sinema-hareketli-simulasyon-odasi.html">9D Sinema Hareketli Simulasyon
+                            Odası</a></li>
+                    <li><a href="pages/ucak-simulatoru.html">Uçak Simulatörü</a></li>
+                    <li><a href="pages/2-axis-simulator.html">2 AXİS Simulator</a></li>
+                    <li><a href="pages/tank-simulatoru.html">Tank Simülatörü</a></li>
+                    <li><a href="pages/6-axis-simulator.html">6 AXİS Simulatör</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1>İletişim</h1>
+                <p>Adres : Zeytinli Mh. 611. 3 Sk. No:4/M Edremit/BALIKESİR</p>
+                <p>İletişim : 0542 123 63 10</p>
+                <p>WhatsApp : +90 542 123 63 10</p>
+                <p>E-Posta : simulasyonrobotic@hotmail.com</p>
+            </div>
+        </section>
     </footer>
-    <script src="scroll.js"></script>
+
+    <script src="scripts/scroll.js"></script>
 </body>
 
 </html>
