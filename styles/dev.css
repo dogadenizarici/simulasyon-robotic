@@ -14,6 +14,11 @@ header .header-slider {
 	overflow-x: scroll;
 	scroll-snap-type: x mandatory;
 
+	scrollbar-width: none;
+}
+
+header .header-slider::webkit-scrollbar {
+	display: none;
 }
 
 header .header-slider .slide-one,
